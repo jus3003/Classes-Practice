@@ -1,0 +1,5 @@
+Norm methods Square
+One Norm
+26
+Groot Norm
+154320.75

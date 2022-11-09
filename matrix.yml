@@ -1,0 +1,86 @@
+## Matrix function test cases
+-  test1:
+    name: myAwesomeMatrix Test 1
+    points: 1.5
+    input: {}
+    output: 'my_mat_tests/awesome_mat_test1.txt'
+-  test2:
+    name: myAwesomeMatrix Test 2
+    points: 1.5
+    input: {n: 4}
+    output: 'my_mat_tests/awesome_mat_test2.txt'
+-  test3:
+    name: myAwesomeMatrix Test 3
+    points: 1.5
+    input: {i: 3, j: 4}
+    output: 'my_mat_tests/awesome_mat_test3.txt'
+-  test4:
+    name: myAwesomeMatrix Test 4
+    points: 1.5
+    input: {n: 6, range: [1,3], format1: '[', format2: ']'}
+    output: 'my_mat_tests/awesome_mat_test4.txt'      
+-  test5:
+    name: myAwesomeMatrix Test 5
+    points: 1.5
+    input: {n: 2, set: [1,2,3], style: 'lower'}
+    output: 'my_mat_tests/awesome_mat_test5.txt'
+-  test6:
+    name: myAwesomeMatrix Test 6
+    points: 1.5
+    input: {n: 4, format1: 'cool', format2: 'cool'}
+    output: 'my_mat_tests/awesome_mat_test6.txt'
+-  test7:
+    name: myAwesomeMatrix Test 7
+    points: 1.5
+    input: {n: 4, set: [1], style: 'diagonal'}
+    output: 'my_mat_tests/awesome_mat_test7.txt'
+-  test8:
+    name: myAwesomeMatrix Test 8
+    points: 1.5
+    input: {n: 5, set: [5,7,8,3,2,4,9],format1: 'ed!#',style: 'symmetric'}
+    output: 'my_mat_tests/awesome_mat_test8.txt'
+-  test9:
+    name: Add two matrices
+    points: 1.5
+    matComp: 'Add'
+    input: {n: 5, set: [5,7,8,3,2,4,9],format1: 'ed!#'}
+    input2: {n: 5, set: [4,3,6,7],format2: '@-!-',style: 'upper'}
+    output: 'my_mat_tests/awesome_mat_test9.txt'
+-  test10:
+    name: Basic Overloaded '+' Calculations
+    points: 1.5
+    matComp: '+'
+    input: {n: 5, set: [5,7,8,3,2,4,9],format1: 'ed!#'}
+    input2: {n: 5, set: [4,3,6,7],format2: '@-!-',style: 'upper'}
+    output: 'my_mat_tests/awesome_mat_test10.txt'
+-  test11:
+    name: Basic Less Than Matrix Comparison
+    points: 1.5
+    matComp: 'lt'
+    input: {n: 6, set: [0,1]}
+    input2: {n: 4, style: 'upper', set: [4,3,6,7]}
+    output: 'my_mat_tests/awesome_mat_test11.txt'
+-  test12:
+    name: Norm methods Square
+    points: 1.5
+    norm: True
+    input: {n: 6, set: [2,1,4,3,6,7]}
+    output: 'my_mat_tests/awesome_mat_test12.txt'
+-  test13:
+    name: Norm methods non-Square
+    points: 1.5
+    norm: True
+    input: {i: 6, j: 2, set: [2,1,4,3,6,7]}
+    output: 'my_mat_tests/awesome_mat_test13.txt'
+-  test14:
+    name: Extra Test 1
+    points: 1.5
+    input: {i: 4, format1: '/', range: [5,2], j: 4, style: 'lower', format2: '\'}
+    output: 'my_mat_tests/awesome_mat_test14.txt'
+-  test15:
+    name: Extra Test 2
+    points: 1.5
+    matComp: '+'
+    input: {n: 4, set: [1],format1: '123',style: 'lower'}
+    input2: {i: 4, j: 4, set: [2],format2: '654',style: 'upper'}
+    output: 'my_mat_tests/awesome_mat_test15.txt'

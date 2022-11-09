@@ -1,0 +1,5 @@
+myAwesomeMatrix Test 6
+cool 0 0 1 0 cool
+cool 1 1 1 1 cool
+cool 0 0 1 0 cool
+cool 1 1 0 1 cool

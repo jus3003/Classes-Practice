@@ -1,0 +1,41 @@
+## Calculator function test cases
+-  test:
+    name: Basic Add
+    points: 2
+    input: "3 + 2\nq"
+    output: 5.0
+-  test:
+    name: Basic Sub
+    points: 2
+    input: "5 - 4\nq"
+    output: 1.0
+-  test:
+    name: Basic Mult
+    points: 2
+    input: "2 * 3\nq"
+    output: 6.0
+-  test:
+    name: Basic Div
+    points: 2
+    input: "4 / 2\nq"
+    output: 2.0
+-  test:
+    name: Basic Exp
+    points: 2
+    input: "3 ^ 2\nq"
+    output: 9.0
+-  test:
+    name: One Float
+    points: 2
+    input: "3.1 - 1\nq"
+    output: 2.1
+-  test:
+    name: Two Floats
+    points: 2
+    input: "2.7 - 1.4\nq"
+    output: 1.3
+-  test:
+    name: Negative
+    points: 2
+    input: "2 - 7\nq"
+    output: -5.0

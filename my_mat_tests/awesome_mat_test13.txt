@@ -1,0 +1,7 @@
+Norm methods non-Square
+One Norm
+ERROR! Matrix is not square
+0
+Groot Norm
+ERROR! Matrix is not square
+0

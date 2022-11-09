@@ -1,0 +1,46 @@
+## Calculator function test cases
+-  test:
+    name: Basic Add 
+    points: 2
+    input: "3 + 2 + 1\nq"
+    output: 6.0
+-  test:
+    name: Different Operators
+    points: 2
+    input: "5 - 4 + 1\nq"
+    output: 2.0
+-  test:
+    name: Mixed Order of Operations 1
+    points: 2
+    input: "2 + 3 * 2\nq"
+    output: 8.0
+-  test:
+    name: Floats
+    points: 2
+    input: "4.2 - 1 / 2\nq"
+    output: 3.7
+-  test:
+    name: All Operations
+    points: 2
+    input: "6 + 5 - 4 * 3 / 2 ^ 1\nq"
+    output: 5.0
+-  test:
+    name: All Operations Out of Order
+    points: 2
+    input: "6 - 5 * 4 ^ 3 / 2 + 1\nq"
+    output: -153.0
+-  test:
+    name: Parentheses
+    points: 2
+    input: "6 * ( 5 + 4 ) / 3 ^ 2 - 1\nq"
+    output: 5.0
+-  test:
+    name: Negatives
+    points: 2
+    input: "6 * ( - 5 - - 4 ) / 3 ^ 2 + 1\nq"
+    output: 0.3
+-  test:
+    name: Distribution
+    points: 2
+    input: "6 - ( 5 + 4 ) ( 3 + 2 ) ^ - 1\nq"
+    output: 4.2
